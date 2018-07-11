@@ -1,0 +1,62 @@
+/*Practica */
+
+
+
+/*Generales*/
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Reset*/
+div{
+    margin: 0px;
+}
+
+/*Color de los tutilos*/
+h2{
+    color: white;
+    text-align: center;
+}
+
+/*Clear*/
+.caja::after { 
+    content: "";
+    display: block; 
+    clear: both;
+ }
+
+
+/*Especifico*/
+#header{
+    background-color: blue;
+    width: 1200px;
+    height: 200px;
+}
+
+#mainMenu {
+    background-color: brown;
+    width: 1200px;
+    height: 100px;
+}
+
+#content {
+    background-color:mediumpurple;
+    width: 900px ;
+    height: 200px;
+    float: left;
+}
+
+#subMenu{
+    background-color: peru;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+#footer{
+    background-color: darkgreen;
+    width: 1200px;
+    height: 200px;
+
+}
